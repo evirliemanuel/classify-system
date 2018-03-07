@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_login_email_layout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:theme="@style/AppTheme.Stylex.TIL">
+
+        <EditText
+            android:id="@+id/fragment_login_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gui_login_email_text_hint"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_login_password_layout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_login_email_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:theme="@style/AppTheme.Stylex.TIL">
+
+        <EditText
+            android:id="@+id/fragment_login_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gui_login_password_text_hint"
+            android:inputType="textPassword"
+            tools:ignore="TextFields" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/fragment_login_button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_login_password_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:width="300dp"
+        android:height="70dp"
+        android:text="@string/gui_login_button_login_text"
+        android:theme="@style/AppTheme.Base.Button.Normal" />
+
+    <Button
+        android:id="@+id/fragment_login_button_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_login_button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:width="300dp"
+        android:height="70dp"
+        android:text="Signup"
+        android:theme="@style/AppTheme.Base.Button.Reverse" />
+
+</RelativeLayout>

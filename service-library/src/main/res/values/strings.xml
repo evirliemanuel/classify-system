@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ServiceLibrary</string>
+    <string name="server_api">http://192.168.0.104:8080/api</string>
+</resources>

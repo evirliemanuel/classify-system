@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">alice-android</string>
+    <string name="app_baseUri">http://alice-rafaelmanuel.rhcloud.com/api</string>
+    <string name="gui_login_email_text_hint">Email</string>
+    <string name="gui_login_password_text_hint">Password</string>
+    <string name="gui_login_button_login_text">Login</string>
+    <string name="msg_no_email_error">Please enter your email</string>
+    <string name="msg_no_password_error">Please enter your password</string>
+    <string name="msg_no_firstname_error">Please enter your first name</string>
+    <string name="msg_no_lastname_error">Please enter your last name</string>
+    <string name="msg_minimun_char_8">Minimun is 8 character</string>
+</resources>

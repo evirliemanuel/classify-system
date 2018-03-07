@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorError">#f43e3e</color>
+    <color name="colorActive">@color/colorWhite</color>
+    <color name="colorNormal">@color/colorPrimaryDark</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorGray">#9e9e9b</color>
+    <color name="colorLightGray">#e1e1df</color>
+    <color name="colorDarkGray">#81817d</color>
+    <color name="colorMidNightBlue">#2c3e50</color>
+    <color name="colorWetAsphalt">#34495e</color>
+    <color name="colorAsbestos">#7f8c8d</color>
+    <color name="colorConcrete">#95a5a6</color>
+    <color name="colorClouds">#ecf0f1</color>
+    <color name="colorSilver">#bdc3c7</color>
+    <color name="colorCarot">#e67e22</color>
+    <color name="colorPumpkin">#d35400</color>
+    <color name="colorMoca1">#7e7c7d</color>
+    <color name="colorMoca2">#b1afb0</color>
+    <color name="colorMoca3">#f1eff0</color>
+    <color name="colorTweeterBlue">#3dc4f1</color>
+    <color name="colorTweeterBlueDark">#0a91be</color>
+</resources>
