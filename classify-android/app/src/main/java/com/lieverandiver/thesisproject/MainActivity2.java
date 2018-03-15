@@ -104,21 +104,16 @@ public class MainActivity2 extends AppCompatActivity implements ClassAdapter.Cla
         tabLayout.getTabAt(1).setCustomView(tabTwo);
 
         TextView tabThree = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
-        tabThree.setText("Student");
+        tabThree.setText("Setting");
         tabThree.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.small_home, 0, 0);
         tabLayout.getTabAt(2).setCustomView(tabThree);
 
-        TextView tabFour = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
-        tabFour.setText("Setting");
-        tabFour.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.small_home, 0, 0);
-        tabLayout.getTabAt(3).setCustomView(tabFour);
     }
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new SliderScheduleFragment(), "Shedule");
         adapter.addFragment(new SliderClassFragment(), "Class");
-        adapter.addFragment(new Home_Student_Slidebar_Fragment(), "Student");
         adapter.addFragment(new SliderSettingFragment(), "Setting");
         viewPager.setAdapter(adapter);
     }
