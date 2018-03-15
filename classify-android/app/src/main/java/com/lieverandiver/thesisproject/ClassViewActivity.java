@@ -428,6 +428,7 @@ public class ClassViewActivity extends AppCompatActivity implements View.OnClick
                 intent = getIntent().setClass(this, GradeResultActivity2.class);
                 intent.putExtra("termId", 1L);
                 startActivity(intent);
+                this.finish();
                 break;
             case viewactivitym :
                 intent = getIntent().setClass(this, ActivityAddActivity.class);
