@@ -90,9 +90,6 @@ public class ScheduleAdapter extends RecyclerView.Adapter<ScheduleAdapter.Schedu
                     R.id.fragment_slidebar_cardview_schedule_text_schedule);
 
 
-
-
-
         }
 
         void setView(final Schedule _schedule, final int _position) {

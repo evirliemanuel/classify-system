@@ -101,6 +101,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:visibility="gone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
@@ -109,6 +110,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:visibility="gone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
@@ -117,6 +119,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:visibility="gone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
@@ -153,6 +156,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:visibility="gone"
                             android:id="@+id/txtv_dept"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -163,6 +167,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:visibility="gone"
                             android:id="@+id/txtv_sem"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -173,6 +178,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:visibility="gone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
@@ -1539,5 +1545,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
     </FrameLayout>
+
+
 
 </FrameLayout>

@@ -22,6 +22,8 @@ import com.remswork.project.alice.model.Student;
 import com.remswork.project.alice.service.impl.ClassServiceImpl;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 
@@ -84,6 +86,12 @@ public class StudentViewActivity extends AppCompatActivity implements
 
                     for(Student student : studentSet)
                         studenList.add(student);
+                    Collections.sort(studenList, new Comparator<Student>() {
+                        @Override
+                        public int compare(final Student object1, final Student object2) {
+                            return object1.getLastName().compareTo(object2.getLastName());
+                        }
+                    });
 
                     final StudentAdapter studentAdapter = new StudentAdapter(
                             StudentViewActivity.this, studenList);
